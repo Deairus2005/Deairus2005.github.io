@@ -1,5 +1,27 @@
 img {
-    border: 5px solid #555;
+    border: 5px solid rgb(223, 216, 216);
   }
 
-  
+  .grid-container {
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-column-gap: 2fr 1fr;
+
+
+
+  }
+
+  .grid-item-1{
+    grid-column: 200px;
+  }
+
+
+  body {
+    background-image: url("./images/mariobros.jpg");
+    background-size:10px;
+    /*color: 0066cc;*/
+  }
+
+  * {
+    font-size: 20pt;
+  }
